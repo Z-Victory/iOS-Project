@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "YHLock.h"
 #import "YHBlock.h"
+#import "NSObject+YHCategory.h"
+#import "NSObject+YHCategoryTwo.h"
+#import "LifeViewController.h"
 
 @interface ViewController ()
 
@@ -18,8 +21,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[[YHBlock alloc] init] testRetainCount_MRC];
+//    [[[YHBlock alloc] init] testRetainCount_MRC];
+    NSString *a = @"hah";
+    [a eat];
 }
 
+- (IBAction)goControllerLife:(id)sender {
+    //直接初始化
+//    LifeViewController * vc = [[LifeViewController alloc] init];
+    
+    //通过Storyboard初始化
+//    UIStoryboard * b = [UIStoryboard storyboardWithName:@"LifeViewController" bundle:nil];
+//    LifeViewController * vc = [b instantiateViewControllerWithIdentifier:@"LifeViewController"];
+    
+    //通过xib初始化
+//    LifeViewController * vc = [[LifeViewController alloc] initWithNibName:@"TestX" bundle:[NSBundle mainBundle]];
+//    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end

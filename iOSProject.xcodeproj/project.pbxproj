@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3850191024AADE82007A64A0 /* LifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850190F24AADE82007A64A0 /* LifeViewController.m */; };
+		3850191E24AAE9EE007A64A0 /* LifeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850191D24AAE9EE007A64A0 /* LifeViewController.storyboard */; };
+		3850192024AAED78007A64A0 /* TestX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3850191F24AAED78007A64A0 /* TestX.xib */; };
+		38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */; };
+		38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */; };
+		38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401324A9D676005CC502 /* NSObject+YHCategoryTwo.m */; };
 		59252F7A2482036A00F6C929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59252F792482036A00F6C929 /* AppDelegate.m */; };
 		59252F802482036A00F6C929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59252F7F2482036A00F6C929 /* ViewController.m */; };
 		59252F832482036A00F6C929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59252F812482036A00F6C929 /* Main.storyboard */; };
@@ -37,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3850190E24AADE82007A64A0 /* LifeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeViewController.h; sourceTree = "<group>"; };
+		3850190F24AADE82007A64A0 /* LifeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeViewController.m; sourceTree = "<group>"; };
+		3850191D24AAE9EE007A64A0 /* LifeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LifeViewController.storyboard; sourceTree = "<group>"; };
+		3850191F24AAED78007A64A0 /* TestX.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestX.xib; sourceTree = "<group>"; };
+		38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmptyFile.m; sourceTree = "<group>"; };
+		38B1400F24A9D4C2005CC502 /* NSObject+YHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YHCategory.h"; sourceTree = "<group>"; };
+		38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YHCategory.m"; sourceTree = "<group>"; };
+		38B1401224A9D676005CC502 /* NSObject+YHCategoryTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YHCategoryTwo.h"; sourceTree = "<group>"; };
+		38B1401324A9D676005CC502 /* NSObject+YHCategoryTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YHCategoryTwo.m"; sourceTree = "<group>"; };
 		59252F752482036900F6C929 /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59252F782482036A00F6C929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59252F792482036A00F6C929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3850190D24AADE58007A64A0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			path = "多线程/New Group";
+			sourceTree = "<group>";
+		};
 		59252F6C2482036900F6C929 = {
 			isa = PBXGroup;
 			children = (
@@ -108,10 +131,16 @@
 			isa = PBXGroup;
 			children = (
 				59252F782482036A00F6C929 /* AppDelegate.h */,
-				59252FAE2482059900F6C929 /* New Group */,
 				59252F792482036A00F6C929 /* AppDelegate.m */,
 				59252F7E2482036A00F6C929 /* ViewController.h */,
 				59252F7F2482036A00F6C929 /* ViewController.m */,
+				38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */,
+				38B1400F24A9D4C2005CC502 /* NSObject+YHCategory.h */,
+				38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */,
+				38B1401224A9D676005CC502 /* NSObject+YHCategoryTwo.h */,
+				38B1401324A9D676005CC502 /* NSObject+YHCategoryTwo.m */,
+				59252FAE2482059900F6C929 /* New Group */,
+				3850190D24AADE58007A64A0 /* New Group */,
 				599009F624838BB500DEE1B0 /* Block */,
 				59252FAD2482057C00F6C929 /* 多线程 */,
 				59252F812482036A00F6C929 /* Main.storyboard */,
@@ -153,6 +182,10 @@
 		59252FAE2482059900F6C929 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				3850190E24AADE82007A64A0 /* LifeViewController.h */,
+				3850190F24AADE82007A64A0 /* LifeViewController.m */,
+				3850191D24AAE9EE007A64A0 /* LifeViewController.storyboard */,
+				3850191F24AAED78007A64A0 /* TestX.xib */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -269,8 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3850192024AAED78007A64A0 /* TestX.xib in Resources */,
 				59252F882482036B00F6C929 /* LaunchScreen.storyboard in Resources */,
 				59252F852482036B00F6C929 /* Assets.xcassets in Resources */,
+				3850191E24AAE9EE007A64A0 /* LifeViewController.storyboard in Resources */,
 				59252F832482036A00F6C929 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,11 +331,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */,
 				59252F802482036A00F6C929 /* ViewController.m in Sources */,
+				38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */,
 				59252FB12482081400F6C929 /* YHLock.m in Sources */,
 				599009F924838BDB00DEE1B0 /* YHBlock.m in Sources */,
 				59252F7A2482036A00F6C929 /* AppDelegate.m in Sources */,
 				59252F8B2482036B00F6C929 /* main.m in Sources */,
+				3850191024AADE82007A64A0 /* LifeViewController.m in Sources */,
+				38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
