@@ -12,6 +12,7 @@
 #import "NSObject+YHCategory.h"
 #import "NSObject+YHCategoryTwo.h"
 #import "LifeViewController.h"
+#import "TextViewDemo.h"
 
 @interface ViewController ()
 
@@ -25,8 +26,13 @@
     NSString *a = @"hah";
     [a eat];
 }
-
 - (IBAction)goControllerLife:(id)sender {
+    //直接初始化
+    TextViewDemo * vc = [[TextViewDemo alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+//测试Controller不同的初始化方式下生命周期的变化
+//- (IBAction)goControllerLife:(id)sender {
     //直接初始化
 //    LifeViewController * vc = [[LifeViewController alloc] init];
     
@@ -37,6 +43,6 @@
     //通过xib初始化
 //    LifeViewController * vc = [[LifeViewController alloc] initWithNibName:@"TestX" bundle:[NSBundle mainBundle]];
 //    [self presentViewController:vc animated:YES completion:nil];
-}
+//}
 
 @end
