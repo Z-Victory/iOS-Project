@@ -13,23 +13,35 @@
 #import "NSObject+YHCategoryTwo.h"
 #import "LifeViewController.h"
 #import "TextViewDemo.h"
+#import "RunloopDemoController.h"
+#import "AnimationDemo.h"
 
 @interface ViewController ()
-
+{
+    UIButton * button;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [[[YHBlock alloc] init] testRetainCount_MRC];
-    NSString *a = @"hah";
-    [a eat];
+    self.navigationItem.title = @"首页";
+    
+    button = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
+    [button setTitle:@"跳转" forState:UIControlStateNormal];
+    button.backgroundColor = UIColor.redColor;
+    [button addTarget:self action:@selector(goControllerLife:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 - (IBAction)goControllerLife:(id)sender {
     //直接初始化
-    TextViewDemo * vc = [[TextViewDemo alloc] init];
-    [self presentViewController:vc animated:YES completion:nil];
+//    TextViewDemo * vc = [[TextViewDemo alloc] init];
+    
+//    RunloopDemoController * vc = [RunloopDemoController new];
+    
+    AnimationDemo * vc = [AnimationDemo new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 //测试Controller不同的初始化方式下生命周期的变化
 //- (IBAction)goControllerLife:(id)sender {

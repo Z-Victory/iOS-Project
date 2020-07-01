@@ -12,6 +12,8 @@
 		3850192024AAED78007A64A0 /* TestX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3850191F24AAED78007A64A0 /* TestX.xib */; };
 		3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850192524AB2AC1007A64A0 /* WKViewControllerDemo.m */; };
 		3850192B24AB32A8007A64A0 /* TextViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850192A24AB32A8007A64A0 /* TextViewDemo.m */; };
+		3850193424AC76BF007A64A0 /* RunloopDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850193324AC76BF007A64A0 /* RunloopDemoController.m */; };
+		3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850193724AC882D007A64A0 /* AnimationDemo.m */; };
 		38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */; };
 		38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */; };
 		38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401324A9D676005CC502 /* NSObject+YHCategoryTwo.m */; };
@@ -53,6 +55,10 @@
 		3850192524AB2AC1007A64A0 /* WKViewControllerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKViewControllerDemo.m; sourceTree = "<group>"; };
 		3850192924AB32A8007A64A0 /* TextViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewDemo.h; sourceTree = "<group>"; };
 		3850192A24AB32A8007A64A0 /* TextViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewDemo.m; sourceTree = "<group>"; };
+		3850193224AC76BF007A64A0 /* RunloopDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopDemoController.h; sourceTree = "<group>"; };
+		3850193324AC76BF007A64A0 /* RunloopDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopDemoController.m; sourceTree = "<group>"; };
+		3850193624AC882D007A64A0 /* AnimationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDemo.h; sourceTree = "<group>"; };
+		3850193724AC882D007A64A0 /* AnimationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemo.m; sourceTree = "<group>"; };
 		38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmptyFile.m; sourceTree = "<group>"; };
 		38B1400F24A9D4C2005CC502 /* NSObject+YHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YHCategory.h"; sourceTree = "<group>"; };
 		38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YHCategory.m"; sourceTree = "<group>"; };
@@ -105,14 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3850190D24AADE58007A64A0 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
-			path = "多线程/New Group";
-			sourceTree = "<group>";
-		};
 		3850192124AB21D3007A64A0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +125,8 @@
 		3850192224AB21E4007A64A0 /* Runloop */ = {
 			isa = PBXGroup;
 			children = (
+				3850193224AC76BF007A64A0 /* RunloopDemoController.h */,
+				3850193324AC76BF007A64A0 /* RunloopDemoController.m */,
 			);
 			path = Runloop;
 			sourceTree = "<group>";
@@ -158,6 +158,15 @@
 			path = UITextView;
 			sourceTree = "<group>";
 		};
+		3850193524AC880B007A64A0 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3850193624AC882D007A64A0 /* AnimationDemo.h */,
+				3850193724AC882D007A64A0 /* AnimationDemo.m */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
 		59252F6C2482036900F6C929 = {
 			isa = PBXGroup;
 			children = (
@@ -186,11 +195,11 @@
 				59252F7E2482036A00F6C929 /* ViewController.h */,
 				59252F7F2482036A00F6C929 /* ViewController.m */,
 				38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */,
+				3850193524AC880B007A64A0 /* 动画 */,
 				3850192324AB297D007A64A0 /* UI控件 */,
 				3850192224AB21E4007A64A0 /* Runloop */,
 				3850192124AB21D3007A64A0 /* Category */,
 				59252FAE2482059900F6C929 /* ViewController生命周期 */,
-				3850190D24AADE58007A64A0 /* New Group */,
 				599009F624838BB500DEE1B0 /* Block */,
 				59252FAD2482057C00F6C929 /* 多线程安全 */,
 				59252F812482036A00F6C929 /* Main.storyboard */,
@@ -385,12 +394,14 @@
 				59252F802482036A00F6C929 /* ViewController.m in Sources */,
 				38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */,
 				3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */,
+				3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */,
 				59252FB12482081400F6C929 /* YHLock.m in Sources */,
 				3850192B24AB32A8007A64A0 /* TextViewDemo.m in Sources */,
 				599009F924838BDB00DEE1B0 /* YHBlock.m in Sources */,
 				59252F7A2482036A00F6C929 /* AppDelegate.m in Sources */,
 				59252F8B2482036B00F6C929 /* main.m in Sources */,
 				3850191024AADE82007A64A0 /* LifeViewController.m in Sources */,
+				3850193424AC76BF007A64A0 /* RunloopDemoController.m in Sources */,
 				38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
