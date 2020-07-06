@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3838222224B2EF730004CAEE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222124B2EF730004CAEE /* Person.m */; };
+		3838222524B2EF830004CAEE /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222424B2EF830004CAEE /* Girl.m */; };
+		3838222824B2F3CB0004CAEE /* NSObject+Sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222724B2F3CB0004CAEE /* NSObject+Sark.m */; };
 		3850191024AADE82007A64A0 /* LifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850190F24AADE82007A64A0 /* LifeViewController.m */; };
 		3850191E24AAE9EE007A64A0 /* LifeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850191D24AAE9EE007A64A0 /* LifeViewController.storyboard */; };
 		3850192024AAED78007A64A0 /* TestX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3850191F24AAED78007A64A0 /* TestX.xib */; };
@@ -47,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3838222024B2EF730004CAEE /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3838222124B2EF730004CAEE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3838222324B2EF830004CAEE /* Girl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
+		3838222424B2EF830004CAEE /* Girl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
+		3838222624B2F3CB0004CAEE /* NSObject+Sark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sark.h"; sourceTree = "<group>"; };
+		3838222724B2F3CB0004CAEE /* NSObject+Sark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sark.m"; sourceTree = "<group>"; };
 		3850190E24AADE82007A64A0 /* LifeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeViewController.h; sourceTree = "<group>"; };
 		3850190F24AADE82007A64A0 /* LifeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeViewController.m; sourceTree = "<group>"; };
 		3850191D24AAE9EE007A64A0 /* LifeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LifeViewController.storyboard; sourceTree = "<group>"; };
@@ -195,6 +204,12 @@
 				59252F7E2482036A00F6C929 /* ViewController.h */,
 				59252F7F2482036A00F6C929 /* ViewController.m */,
 				38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */,
+				3838222024B2EF730004CAEE /* Person.h */,
+				3838222124B2EF730004CAEE /* Person.m */,
+				3838222324B2EF830004CAEE /* Girl.h */,
+				3838222424B2EF830004CAEE /* Girl.m */,
+				3838222624B2F3CB0004CAEE /* NSObject+Sark.h */,
+				3838222724B2F3CB0004CAEE /* NSObject+Sark.m */,
 				3850193524AC880B007A64A0 /* 动画 */,
 				3850192324AB297D007A64A0 /* UI控件 */,
 				3850192224AB21E4007A64A0 /* Runloop */,
@@ -392,8 +407,10 @@
 			files = (
 				38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */,
 				59252F802482036A00F6C929 /* ViewController.m in Sources */,
+				3838222224B2EF730004CAEE /* Person.m in Sources */,
 				38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */,
 				3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */,
+				3838222524B2EF830004CAEE /* Girl.m in Sources */,
 				3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */,
 				59252FB12482081400F6C929 /* YHLock.m in Sources */,
 				3850192B24AB32A8007A64A0 /* TextViewDemo.m in Sources */,
@@ -402,6 +419,7 @@
 				59252F8B2482036B00F6C929 /* main.m in Sources */,
 				3850191024AADE82007A64A0 /* LifeViewController.m in Sources */,
 				3850193424AC76BF007A64A0 /* RunloopDemoController.m in Sources */,
+				3838222824B2F3CB0004CAEE /* NSObject+Sark.m in Sources */,
 				38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

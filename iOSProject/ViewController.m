@@ -15,6 +15,8 @@
 #import "TextViewDemo.h"
 #import "RunloopDemoController.h"
 #import "AnimationDemo.h"
+#import "Girl.h"
+#import "NSObject+Sark.h"
 
 @interface ViewController ()
 {
@@ -33,7 +35,18 @@
     button.backgroundColor = UIColor.redColor;
     [button addTarget:self action:@selector(goControllerLife:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+//    Girl * girl = [[Girl alloc] init];
+//    [[Person alloc] init];
+    NSArray * a = @[@"1",@"2"];
+    __block int max;
+    [a enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        int b = [obj intValue];
+        if (b> max) {
+            max = b;
+        }
+    }];
 }
+
 - (IBAction)goControllerLife:(id)sender {
     //直接初始化
 //    TextViewDemo * vc = [[TextViewDemo alloc] init];
