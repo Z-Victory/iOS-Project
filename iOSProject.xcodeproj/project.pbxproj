@@ -20,6 +20,11 @@
 		38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */; };
 		38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */; };
 		38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401324A9D676005CC502 /* NSObject+YHCategoryTwo.m */; };
+		38D8EB4824B46E49005BC1E0 /* YHTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8EB4724B46E49005BC1E0 /* YHTitleScrollView.m */; };
+		38D8EB4E24B593F2005BC1E0 /* YHTitleRolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8EB4C24B593F2005BC1E0 /* YHTitleRolling.m */; };
+		38D8EB4F24B593F2005BC1E0 /* UIView+DCRolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8EB4D24B593F2005BC1E0 /* UIView+DCRolling.m */; };
+		38D8EB5224B59F8C005BC1E0 /* icon_app_live_on_white.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38D8EB5024B59F8C005BC1E0 /* icon_app_live_on_white.gif */; };
+		38D8EB5324B59F8C005BC1E0 /* icon_app_live_on_red.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38D8EB5124B59F8C005BC1E0 /* icon_app_live_on_red.gif */; };
 		59252F7A2482036A00F6C929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59252F792482036A00F6C929 /* AppDelegate.m */; };
 		59252F802482036A00F6C929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59252F7F2482036A00F6C929 /* ViewController.m */; };
 		59252F832482036A00F6C929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59252F812482036A00F6C929 /* Main.storyboard */; };
@@ -73,6 +78,14 @@
 		38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YHCategory.m"; sourceTree = "<group>"; };
 		38B1401224A9D676005CC502 /* NSObject+YHCategoryTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YHCategoryTwo.h"; sourceTree = "<group>"; };
 		38B1401324A9D676005CC502 /* NSObject+YHCategoryTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YHCategoryTwo.m"; sourceTree = "<group>"; };
+		38D8EB4624B46E49005BC1E0 /* YHTitleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHTitleScrollView.h; sourceTree = "<group>"; };
+		38D8EB4724B46E49005BC1E0 /* YHTitleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTitleScrollView.m; sourceTree = "<group>"; };
+		38D8EB4A24B593F2005BC1E0 /* UIView+DCRolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCRolling.h"; sourceTree = "<group>"; };
+		38D8EB4B24B593F2005BC1E0 /* YHTitleRolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTitleRolling.h; sourceTree = "<group>"; };
+		38D8EB4C24B593F2005BC1E0 /* YHTitleRolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTitleRolling.m; sourceTree = "<group>"; };
+		38D8EB4D24B593F2005BC1E0 /* UIView+DCRolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCRolling.m"; sourceTree = "<group>"; };
+		38D8EB5024B59F8C005BC1E0 /* icon_app_live_on_white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_app_live_on_white.gif; sourceTree = "<group>"; };
+		38D8EB5124B59F8C005BC1E0 /* icon_app_live_on_red.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_app_live_on_red.gif; sourceTree = "<group>"; };
 		59252F752482036900F6C929 /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59252F782482036A00F6C929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59252F792482036A00F6C929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -172,8 +185,24 @@
 			children = (
 				3850193624AC882D007A64A0 /* AnimationDemo.h */,
 				3850193724AC882D007A64A0 /* AnimationDemo.m */,
+				38D8EB4624B46E49005BC1E0 /* YHTitleScrollView.h */,
+				38D8EB4724B46E49005BC1E0 /* YHTitleScrollView.m */,
+				38D8EB4924B593F2005BC1E0 /* YHTitleRolling */,
 			);
 			path = "动画";
+			sourceTree = "<group>";
+		};
+		38D8EB4924B593F2005BC1E0 /* YHTitleRolling */ = {
+			isa = PBXGroup;
+			children = (
+				38D8EB5124B59F8C005BC1E0 /* icon_app_live_on_red.gif */,
+				38D8EB5024B59F8C005BC1E0 /* icon_app_live_on_white.gif */,
+				38D8EB4B24B593F2005BC1E0 /* YHTitleRolling.h */,
+				38D8EB4C24B593F2005BC1E0 /* YHTitleRolling.m */,
+				38D8EB4A24B593F2005BC1E0 /* UIView+DCRolling.h */,
+				38D8EB4D24B593F2005BC1E0 /* UIView+DCRolling.m */,
+			);
+			path = YHTitleRolling;
 			sourceTree = "<group>";
 		};
 		59252F6C2482036900F6C929 = {
@@ -378,7 +407,9 @@
 			files = (
 				3850192024AAED78007A64A0 /* TestX.xib in Resources */,
 				59252F882482036B00F6C929 /* LaunchScreen.storyboard in Resources */,
+				38D8EB5224B59F8C005BC1E0 /* icon_app_live_on_white.gif in Resources */,
 				59252F852482036B00F6C929 /* Assets.xcassets in Resources */,
+				38D8EB5324B59F8C005BC1E0 /* icon_app_live_on_red.gif in Resources */,
 				3850191E24AAE9EE007A64A0 /* LifeViewController.storyboard in Resources */,
 				59252F832482036A00F6C929 /* Main.storyboard in Resources */,
 			);
@@ -406,10 +437,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */,
+				38D8EB4E24B593F2005BC1E0 /* YHTitleRolling.m in Sources */,
 				59252F802482036A00F6C929 /* ViewController.m in Sources */,
 				3838222224B2EF730004CAEE /* Person.m in Sources */,
 				38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */,
+				38D8EB4F24B593F2005BC1E0 /* UIView+DCRolling.m in Sources */,
 				3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */,
+				38D8EB4824B46E49005BC1E0 /* YHTitleScrollView.m in Sources */,
 				3838222524B2EF830004CAEE /* Girl.m in Sources */,
 				3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */,
 				59252FB12482081400F6C929 /* YHLock.m in Sources */,

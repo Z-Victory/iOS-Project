@@ -7,28 +7,137 @@
 //
 
 #import "AnimationDemo.h"
+#import "YHTitleScrollView.h"
+#import "YHTitleRolling.h"
 
-@interface AnimationDemo ()<CAAnimationDelegate>
+@interface AnimationDemo ()<CAAnimationDelegate,CDDRollingDelegate>
 {
-    UIView * romate;
+    
 }
+@property (nonatomic,strong) YHTitleRolling *jdRollingView;
+@property (nonatomic,strong) UIImageView * romate;
+@property (nonatomic,strong) UIImageView * romate2;
+@property (nonatomic,strong) NSMutableArray * viewArray;
 @end
 
 @implementation AnimationDemo
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    romate = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    romate.backgroundColor = UIColor.redColor;
-    [self.view addSubview:romate];
-    [self demo4];
+    self.view.backgroundColor = UIColor.lightGrayColor;
+    _viewArray = [NSMutableArray array];
+//    [self demo5];
+    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [UIView animateWithDuration:2 animations:^{
+//            NSLog(@"%@-%@", NSStringFromCGRect(self.romate.frame),NSStringFromCGRect(self.romate2.frame));
+//            CATransform3D transform = CATransform3DIdentity;
+//            transform = CATransform3DMakeRotation(- M_PI_2, 1, 0, 0);
+//            transform = CATransform3DTranslate(transform, 0, -100, -100);
+//            self.romate.layer.transform = transform;
+//
+//            CATransform3D trans = CATransform3DIdentity;
+//            trans = CATransform3DMakeRotation(0, 1, 0, 0);
+//            trans = CATransform3DTranslate(trans, 0, 0, 0);
+//            self.romate2.layer.transform = trans;
+//        } completion:^(BOOL finished) {
+//            NSLog(@"%@-%@", NSStringFromCGRect(self.romate.frame),NSStringFromCGRect(self.romate2.frame));
+//        }];
+//    });
+//    [self setupView];
+//    __weak typeof(self) weakSelf = self;
+//    NSTimer * timer = [NSTimer timerWithTimeInterval:2 repeats:YES block:^(NSTimer * _Nonnull timer) {
+//        [UIView animateWithDuration:1 animations:^{
+//
+//            [weakSelf getMiddleArrayWithIndex:0 WithAngle:-M_PI_2 Height:-50];
+//            [weakSelf getMiddleArrayWithIndex:1 WithAngle:0 Height:0];
+//        } completion:^(BOOL finished) {
+//            UIView * view = [weakSelf getMiddleArrayWithIndex:0 WithAngle:M_PI_2 Height:-50];
+//            [weakSelf.viewArray addObject:view];
+//
+//            [weakSelf.viewArray removeObjectAtIndex:0];
+//        }];
+//    }];
+//    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
+    
+//    YHTitleScrollView * scr = [[YHTitleScrollView alloc] initWithFrame:CGRectMake(0, 300, 100, 40)];
+//    [self.view addSubview:scr];
+//    [scr scroll];
+    _jdRollingView = [[YHTitleRolling alloc] initSimpleWithFrame:CGRectMake(0, 450, self.view.frame.size.width , 44) WithTitleData:^(CDDRollingGroupStyle *rollingGroupStyle,NSArray<YHTitleScrollModel *> *__autoreleasing *rolTitles) {
+        NSMutableArray * array = [NSMutableArray array];
+        YHTitleScrollModel * model1 = [YHTitleScrollModel new];
+        model1.style = YHRollingTodayLive;
+        model1.time = @"8:00";
+        model1.title = @"新媒体装置艺术 在公共商业空…";
+        YHTitleScrollModel * model2 = [YHTitleScrollModel new];
+        model2.style = YHRollingLiving;
+        model2.title = @"新媒体装置艺术 在公共商业空…";
+        YHTitleScrollModel * model3 = [YHTitleScrollModel new];
+        model3.style = YHRollingTodayLive;
+        model3.time = @"8:00";
+        model3.title = @"新媒体装置艺术 在公共商业空…";
+        array = [NSMutableArray arrayWithArray:@[model1,model2,model3]];
+        *rolTitles = array;
+    }];
+    
+    [_jdRollingView dc_beginRolling];
+    _jdRollingView.delegate = self;
+//    _jdRollingView.layer.cornerRadius = 15;
+//    [_jdRollingView.layer masksToBounds];
+    _jdRollingView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:_jdRollingView];
+}
+#pragma mark - <CDDRollingDelegate>
+- (void)dc_RollingViewSelectWithActionAtIndex:(NSInteger)index
+{
+    NSLog(@"点击了第%zd头条滚动条",index);
+}
+- (void)setupView{
+    for (int i=0; i<4; i++) {
+
+        //romate
+        UIImageView *img = [[UIImageView alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
+        img.image = [UIImage imageNamed:[NSString stringWithFormat:@"img%i",i+1]];
+        img.backgroundColor = UIColor.redColor;
+        [self.view addSubview:img];
+        [self setUpCATransform3DWithIndex:i WithButton:img];
+        [self.viewArray addObject:img];
+    }
+}
+#pragma mark - CATransform3D翻转
+- (UIView *)getMiddleArrayWithIndex:(NSInteger)index WithAngle:(CGFloat)angle Height:(CGFloat)height
+{
+    if (index > _viewArray.count) return 0;
+    UIView *middleView = _viewArray[index];
+    
+    CATransform3D trans = CATransform3DIdentity;
+    trans = CATransform3DMakeRotation(angle, 1, 0, 0);
+    trans = CATransform3DTranslate(trans, 0, height, height);
+    middleView.layer.transform = trans;
+    
+    return middleView;
+}
+#pragma mark - 初始布局
+- (void)setUpCATransform3DWithIndex:(NSInteger)index WithButton:(UIView *)contentButton
+{
+    if (index != 0) {
+        CATransform3D trans = CATransform3DIdentity;
+        trans = CATransform3DMakeRotation(M_PI_2, 1, 0, 0);
+        trans = CATransform3DTranslate(trans, 0, - 100 / 2, -100 / 2);
+        contentButton.layer.transform = trans;
+    }else{
+        CATransform3D trans = CATransform3DIdentity;
+        trans = CATransform3DMakeRotation(0, 1, 0, 0);
+        trans = CATransform3DTranslate(trans, 0, 0, - 100 / 2);
+        contentButton.layer.transform = trans;
+    }
 }
 //1.CABasicAnimation基本动画（fromValue和toValue）
 - (void)demo1{
     CABasicAnimation *animation = [CABasicAnimation new];
     
     // 设置动画要改变的属性
-    animation.keyPath = @"transform.rotation.z";
+    animation.keyPath = @"transform.rotation.x";
     
     //animation.fromValue = @(_bgImgV.layer.transform.m11);
     
@@ -36,7 +145,7 @@
     animation.toValue = @(M_PI*2);
     
     // 动画的播放时间
-    animation.duration = 60;
+    animation.duration = 10;
     
     animation.repeatCount = LONG_MAX;
     
@@ -51,7 +160,7 @@
     animation.delegate = self;
     
     // 将动画添加到视图bgImgV的layer上
-    [romate.layer addAnimation:animation forKey:@"rotation"];
+    [self.romate.layer addAnimation:animation forKey:@"rotation"];
 
 }
 #pragma mark - 、关键帧动画之path路径
@@ -77,7 +186,7 @@
     
 
     // 3.添加
-    [romate.layer addAnimation:animation forKey:nil];
+    [self.romate.layer addAnimation:animation forKey:nil];
     
 }
 //关键帧动画之values("之"字形动画)
@@ -118,19 +227,19 @@
        
     //给这个view加上动画效果
        
-    [romate.layer addAnimation:animation forKey:nil];
+    [self.romate.layer addAnimation:animation forKey:nil];
 
 }
 #pragma mark - UIView 代码块调用layer的CATransform3DIdentity;
 //layer的CATransform3DIdentity;
 - (void)demo4{
-    romate.layer.transform = CATransform3DIdentity;
+    self.romate.layer.transform = CATransform3DIdentity;
     [UIView animateWithDuration:20
                           delay:0
                         options:UIViewAnimationOptionAllowUserInteraction|
      UIViewAnimationOptionCurveLinear
                      animations:^{
-                       romate.layer.transform = CATransform3DMakeRotation(M_PI/4, 0, 0, 1);
+                       self.romate.layer.transform = CATransform3DMakeRotation(M_PI/4, 0, 0, 1);
                      }
                      completion:NULL
      ];
@@ -138,18 +247,39 @@
 //view的CGAffineTransformIdentity；
 - (void)demo5{
 //    __block romateNew = romate;
-    romate.transform = CGAffineTransformIdentity;
-    [UIView animateWithDuration:100
-                            delay:0
-                          options:UIViewAnimationOptionAllowUserInteraction|
-       UIViewAnimationOptionCurveLinear
-                       animations:^{
-                         romate.transform = CGAffineTransformMakeRotation(M_PI);
-
-                       }
-                       completion:NULL
-       ];
-
+//    romate.transform = CGAffineTransformIdentity;
+//    [UIView animateWithDuration:100
+//                            delay:0
+//                          options:UIViewAnimationOptionAllowUserInteraction|
+//       UIViewAnimationOptionCurveLinear
+//                       animations:^{
+//                         romate.transform = CGAffineTransformMakeRotation(M_PI);
+//
+//                       }
+//                       completion:NULL
+//       ];
+    //====================================================================================
+//    [UIView animateWithDuration:5 animations:^{
+//        CATransform3D trans = CATransform3DIdentity;
+//        trans = CATransform3DMakeRotation(- M_PI_2, 1, 0, 0);
+//        trans = CATransform3DTranslate(trans, 0, 100, 100);
+//        romate.layer.transform = trans;
+//    }];
+//
+//    [UIView animateWithDuration:5 animations:^{
+//        CATransform3D trans = CATransform3DIdentity;
+//        trans = CATransform3DMakeRotation(- M_PI_2, 1, 0, 0);
+//        trans = CATransform3DTranslate(trans, 0, 100, 100);
+//        romate.layer.transform = trans;
+//    }];
+    //====================================================================================
+    
+    CATransition *transition = [[CATransition alloc] init];
+    
+    transition.type = @"pageCurl";
+    transition.subtype = @"fromRight";
+    transition.duration = 2.0;
+    [self.romate.layer setValue:transition forKey:@"curlAnimation"];
 }
 /*
 #pragma mark - Navigation
