@@ -15,16 +15,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIq-h3-D2e">
-                                <rect key="frame" x="194" y="200" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qdk-td-H0k">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <connections>
-                                    <action selector="goControllerLife:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gGg-d5-rLh"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="6W1-ds-cUi"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="n7q-1Z-9IV"/>
                                 </connections>
-                            </button>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qdk-td-H0k" secondAttribute="trailing" id="5D9-wl-zIG"/>
+                            <constraint firstItem="qdk-td-H0k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Alv-rG-t3Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qdk-td-H0k" secondAttribute="bottom" id="PIg-se-jrD"/>
+                            <constraint firstItem="qdk-td-H0k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iGt-eW-qpt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

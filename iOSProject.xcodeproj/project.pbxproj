@@ -17,6 +17,8 @@
 		3850192B24AB32A8007A64A0 /* TextViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850192A24AB32A8007A64A0 /* TextViewDemo.m */; };
 		3850193424AC76BF007A64A0 /* RunloopDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850193324AC76BF007A64A0 /* RunloopDemoController.m */; };
 		3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850193724AC882D007A64A0 /* AnimationDemo.m */; };
+		3877DA2D24C80EA100158C27 /* StackViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3877DA2B24C80EA100158C27 /* StackViewDemo.m */; };
+		3877DA2E24C80EA100158C27 /* StackViewDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3877DA2C24C80EA100158C27 /* StackViewDemo.xib */; };
 		38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */; };
 		38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */; };
 		38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401324A9D676005CC502 /* NSObject+YHCategoryTwo.m */; };
@@ -73,6 +75,9 @@
 		3850193324AC76BF007A64A0 /* RunloopDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopDemoController.m; sourceTree = "<group>"; };
 		3850193624AC882D007A64A0 /* AnimationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDemo.h; sourceTree = "<group>"; };
 		3850193724AC882D007A64A0 /* AnimationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemo.m; sourceTree = "<group>"; };
+		3877DA2A24C80EA100158C27 /* StackViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewDemo.h; sourceTree = "<group>"; };
+		3877DA2B24C80EA100158C27 /* StackViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewDemo.m; sourceTree = "<group>"; };
+		3877DA2C24C80EA100158C27 /* StackViewDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackViewDemo.xib; sourceTree = "<group>"; };
 		38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmptyFile.m; sourceTree = "<group>"; };
 		38B1400F24A9D4C2005CC502 /* NSObject+YHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YHCategory.h"; sourceTree = "<group>"; };
 		38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YHCategory.m"; sourceTree = "<group>"; };
@@ -156,6 +161,7 @@
 		3850192324AB297D007A64A0 /* UI控件 */ = {
 			isa = PBXGroup;
 			children = (
+				3877DA2924C80E6900158C27 /* UIStackView */,
 				3850192824AB3286007A64A0 /* UITextView */,
 				3850192724AB3166007A64A0 /* WKWebView */,
 			);
@@ -190,6 +196,16 @@
 				38D8EB4924B593F2005BC1E0 /* YHTitleRolling */,
 			);
 			path = "动画";
+			sourceTree = "<group>";
+		};
+		3877DA2924C80E6900158C27 /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				3877DA2A24C80EA100158C27 /* StackViewDemo.h */,
+				3877DA2B24C80EA100158C27 /* StackViewDemo.m */,
+				3877DA2C24C80EA100158C27 /* StackViewDemo.xib */,
+			);
+			path = UIStackView;
 			sourceTree = "<group>";
 		};
 		38D8EB4924B593F2005BC1E0 /* YHTitleRolling */ = {
@@ -405,6 +421,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3877DA2E24C80EA100158C27 /* StackViewDemo.xib in Resources */,
 				3850192024AAED78007A64A0 /* TestX.xib in Resources */,
 				59252F882482036B00F6C929 /* LaunchScreen.storyboard in Resources */,
 				38D8EB5224B59F8C005BC1E0 /* icon_app_live_on_white.gif in Resources */,
@@ -440,6 +457,7 @@
 				38D8EB4E24B593F2005BC1E0 /* YHTitleRolling.m in Sources */,
 				59252F802482036A00F6C929 /* ViewController.m in Sources */,
 				3838222224B2EF730004CAEE /* Person.m in Sources */,
+				3877DA2D24C80EA100158C27 /* StackViewDemo.m in Sources */,
 				38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */,
 				38D8EB4F24B593F2005BC1E0 /* UIView+DCRolling.m in Sources */,
 				3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */,
