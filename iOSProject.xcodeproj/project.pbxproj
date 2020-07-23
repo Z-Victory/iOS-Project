@@ -27,6 +27,20 @@
 		38D8EB4F24B593F2005BC1E0 /* UIView+DCRolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8EB4D24B593F2005BC1E0 /* UIView+DCRolling.m */; };
 		38D8EB5224B59F8C005BC1E0 /* icon_app_live_on_white.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38D8EB5024B59F8C005BC1E0 /* icon_app_live_on_white.gif */; };
 		38D8EB5324B59F8C005BC1E0 /* icon_app_live_on_red.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38D8EB5124B59F8C005BC1E0 /* icon_app_live_on_red.gif */; };
+		38D918C124C93CC500834D74 /* DataBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918BF24C93CC500834D74 /* DataBaseViewController.m */; };
+		38D918C224C93CC500834D74 /* DataBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D918C024C93CC500834D74 /* DataBaseViewController.xib */; };
+		38D918D224C93D3F00834D74 /* CDUser+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918C424C93D3F00834D74 /* CDUser+CoreDataClass.m */; };
+		38D918D324C93D3F00834D74 /* LearnCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38D918C624C93D3F00834D74 /* LearnCoreData.xcdatamodeld */; };
+		38D918D424C93D3F00834D74 /* CDUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918C924C93D3F00834D74 /* CDUser+CoreDataProperties.m */; };
+		38D918D524C93D3F00834D74 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918CD24C93D3F00834D74 /* KeychainWrapper.m */; };
+		38D918D624C93D3F00834D74 /* YYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918D024C93D3F00834D74 /* YYUser.m */; };
+		38D918DA24C93D8A00834D74 /* SearchHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918D924C93D8A00834D74 /* SearchHistoryManager.m */; };
+		38D918E124C9792900834D74 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918E024C9792900834D74 /* NSString+Tool.m */; };
+		38D918ED24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918EC24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m */; };
+		38D918F324C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918F224C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m */; };
+		38D918F624C9838700834D74 /* TagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918F524C9838700834D74 /* TagsViewController.m */; };
+		38D918FA24C9855800834D74 /* LYHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918F824C9855800834D74 /* LYHCollectionViewCell.m */; };
+		38D918FB24C9855800834D74 /* LYHCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D918F924C9855800834D74 /* LYHCollectionViewCell.xib */; };
 		59252F7A2482036A00F6C929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59252F792482036A00F6C929 /* AppDelegate.m */; };
 		59252F802482036A00F6C929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59252F7F2482036A00F6C929 /* ViewController.m */; };
 		59252F832482036A00F6C929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59252F812482036A00F6C929 /* Main.storyboard */; };
@@ -37,6 +51,7 @@
 		59252FA02482036B00F6C929 /* iOSProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59252F9F2482036B00F6C929 /* iOSProjectUITests.m */; };
 		59252FB12482081400F6C929 /* YHLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 59252FB02482081400F6C929 /* YHLock.m */; };
 		599009F924838BDB00DEE1B0 /* YHBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 599009F824838BDB00DEE1B0 /* YHBlock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		60D9E9F12AB2F11EFF2E48C7 /* libPods-iOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ACD887A0559EED0DCD4854 /* libPods-iOSProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +106,33 @@
 		38D8EB4D24B593F2005BC1E0 /* UIView+DCRolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCRolling.m"; sourceTree = "<group>"; };
 		38D8EB5024B59F8C005BC1E0 /* icon_app_live_on_white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_app_live_on_white.gif; sourceTree = "<group>"; };
 		38D8EB5124B59F8C005BC1E0 /* icon_app_live_on_red.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_app_live_on_red.gif; sourceTree = "<group>"; };
+		38D918BE24C93CC500834D74 /* DataBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBaseViewController.h; sourceTree = "<group>"; };
+		38D918BF24C93CC500834D74 /* DataBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseViewController.m; sourceTree = "<group>"; };
+		38D918C024C93CC500834D74 /* DataBaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataBaseViewController.xib; sourceTree = "<group>"; };
+		38D918C424C93D3F00834D74 /* CDUser+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDUser+CoreDataClass.m"; sourceTree = "<group>"; };
+		38D918C524C93D3F00834D74 /* CDUser+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDUser+CoreDataProperties.h"; sourceTree = "<group>"; };
+		38D918C724C93D3F00834D74 /* LearnCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LearnCoreData.xcdatamodel; sourceTree = "<group>"; };
+		38D918C824C93D3F00834D74 /* CDUser+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDUser+CoreDataClass.h"; sourceTree = "<group>"; };
+		38D918C924C93D3F00834D74 /* CDUser+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDUser+CoreDataProperties.m"; sourceTree = "<group>"; };
+		38D918CC24C93D3F00834D74 /* KeychainConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainConfiguration.h; sourceTree = "<group>"; };
+		38D918CD24C93D3F00834D74 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		38D918CE24C93D3F00834D74 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		38D918D024C93D3F00834D74 /* YYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUser.m; sourceTree = "<group>"; };
+		38D918D124C93D3F00834D74 /* YYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUser.h; sourceTree = "<group>"; };
+		38D918D724C93D5600834D74 /* LearnDatabase.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = LearnDatabase.entitlements; sourceTree = "<group>"; };
+		38D918D824C93D8A00834D74 /* SearchHistoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHistoryManager.h; sourceTree = "<group>"; };
+		38D918D924C93D8A00834D74 /* SearchHistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHistoryManager.m; sourceTree = "<group>"; };
+		38D918DF24C9792900834D74 /* NSString+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		38D918E024C9792900834D74 /* NSString+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
+		38D918EB24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		38D918EC24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		38D918F124C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeIrregularCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		38D918F224C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeIrregularCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		38D918F424C9838700834D74 /* TagsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagsViewController.h; sourceTree = "<group>"; };
+		38D918F524C9838700834D74 /* TagsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsViewController.m; sourceTree = "<group>"; };
+		38D918F724C9855800834D74 /* LYHCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHCollectionViewCell.h; sourceTree = "<group>"; };
+		38D918F824C9855800834D74 /* LYHCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHCollectionViewCell.m; sourceTree = "<group>"; };
+		38D918F924C9855800834D74 /* LYHCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHCollectionViewCell.xib; sourceTree = "<group>"; };
 		59252F752482036900F6C929 /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59252F782482036A00F6C929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59252F792482036A00F6C929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +153,9 @@
 		59252FB02482081400F6C929 /* YHLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHLock.m; sourceTree = "<group>"; };
 		599009F724838BDB00DEE1B0 /* YHBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHBlock.h; sourceTree = "<group>"; };
 		599009F824838BDB00DEE1B0 /* YHBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHBlock.m; sourceTree = "<group>"; };
+		60AED9D7F81FEE6CE6E0464B /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
+		AAE225A8F846684D2FBBF920 /* Pods-iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.debug.xcconfig"; path = "Target Support Files/Pods-iOSProject/Pods-iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F5ACD887A0559EED0DCD4854 /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D9E9F12AB2F11EFF2E48C7 /* libPods-iOSProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +207,7 @@
 		3850192324AB297D007A64A0 /* UI控件 */ = {
 			isa = PBXGroup;
 			children = (
+				38D918DB24C978B200834D74 /* 标签 */,
 				3877DA2924C80E6900158C27 /* UIStackView */,
 				3850192824AB3286007A64A0 /* UITextView */,
 				3850192724AB3166007A64A0 /* WKWebView */,
@@ -221,6 +268,69 @@
 			path = YHTitleRolling;
 			sourceTree = "<group>";
 		};
+		38D918BD24C93B6500834D74 /* 数据持久化 */ = {
+			isa = PBXGroup;
+			children = (
+				38D918D824C93D8A00834D74 /* SearchHistoryManager.h */,
+				38D918D924C93D8A00834D74 /* SearchHistoryManager.m */,
+				38D918D724C93D5600834D74 /* LearnDatabase.entitlements */,
+				38D918C324C93D3F00834D74 /* CoreData */,
+				38D918CB24C93D3F00834D74 /* KeychainWrapper */,
+				38D918CF24C93D3F00834D74 /* Model */,
+				38D918BE24C93CC500834D74 /* DataBaseViewController.h */,
+				38D918BF24C93CC500834D74 /* DataBaseViewController.m */,
+				38D918C024C93CC500834D74 /* DataBaseViewController.xib */,
+			);
+			path = "数据持久化";
+			sourceTree = "<group>";
+		};
+		38D918C324C93D3F00834D74 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				38D918C424C93D3F00834D74 /* CDUser+CoreDataClass.m */,
+				38D918C524C93D3F00834D74 /* CDUser+CoreDataProperties.h */,
+				38D918C624C93D3F00834D74 /* LearnCoreData.xcdatamodeld */,
+				38D918C824C93D3F00834D74 /* CDUser+CoreDataClass.h */,
+				38D918C924C93D3F00834D74 /* CDUser+CoreDataProperties.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		38D918CB24C93D3F00834D74 /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				38D918CC24C93D3F00834D74 /* KeychainConfiguration.h */,
+				38D918CD24C93D3F00834D74 /* KeychainWrapper.m */,
+				38D918CE24C93D3F00834D74 /* KeychainWrapper.h */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		38D918CF24C93D3F00834D74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38D918D024C93D3F00834D74 /* YYUser.m */,
+				38D918D124C93D3F00834D74 /* YYUser.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38D918DB24C978B200834D74 /* 标签 */ = {
+			isa = PBXGroup;
+			children = (
+				38D918EB24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.h */,
+				38D918EC24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m */,
+				38D918F124C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.h */,
+				38D918F224C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m */,
+				38D918F424C9838700834D74 /* TagsViewController.h */,
+				38D918F524C9838700834D74 /* TagsViewController.m */,
+				38D918F724C9855800834D74 /* LYHCollectionViewCell.h */,
+				38D918F824C9855800834D74 /* LYHCollectionViewCell.m */,
+				38D918F924C9855800834D74 /* LYHCollectionViewCell.xib */,
+			);
+			path = "标签";
+			sourceTree = "<group>";
+		};
 		59252F6C2482036900F6C929 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +338,8 @@
 				59252F932482036B00F6C929 /* iOSProjectTests */,
 				59252F9E2482036B00F6C929 /* iOSProjectUITests */,
 				59252F762482036900F6C929 /* Products */,
+				EE01E4CA340D8C7C3A07C976 /* Pods */,
+				9DDCD61266DD0C58B80BD47C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,6 +367,9 @@
 				3838222424B2EF830004CAEE /* Girl.m */,
 				3838222624B2F3CB0004CAEE /* NSObject+Sark.h */,
 				3838222724B2F3CB0004CAEE /* NSObject+Sark.m */,
+				38D918DF24C9792900834D74 /* NSString+Tool.h */,
+				38D918E024C9792900834D74 /* NSString+Tool.m */,
+				38D918BD24C93B6500834D74 /* 数据持久化 */,
 				3850193524AC880B007A64A0 /* 动画 */,
 				3850192324AB297D007A64A0 /* UI控件 */,
 				3850192224AB21E4007A64A0 /* Runloop */,
@@ -318,6 +433,23 @@
 			path = Block;
 			sourceTree = "<group>";
 		};
+		9DDCD61266DD0C58B80BD47C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5ACD887A0559EED0DCD4854 /* libPods-iOSProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE01E4CA340D8C7C3A07C976 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAE225A8F846684D2FBBF920 /* Pods-iOSProject.debug.xcconfig */,
+				60AED9D7F81FEE6CE6E0464B /* Pods-iOSProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +457,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59252FA42482036B00F6C929 /* Build configuration list for PBXNativeTarget "iOSProject" */;
 			buildPhases = (
+				17CC1164C5A3F53AD2411826 /* [CP] Check Pods Manifest.lock */,
 				59252F712482036900F6C929 /* Sources */,
 				59252F722482036900F6C929 /* Frameworks */,
 				59252F732482036900F6C929 /* Resources */,
@@ -421,6 +554,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D918FB24C9855800834D74 /* LYHCollectionViewCell.xib in Resources */,
 				3877DA2E24C80EA100158C27 /* StackViewDemo.xib in Resources */,
 				3850192024AAED78007A64A0 /* TestX.xib in Resources */,
 				59252F882482036B00F6C929 /* LaunchScreen.storyboard in Resources */,
@@ -428,6 +562,7 @@
 				59252F852482036B00F6C929 /* Assets.xcassets in Resources */,
 				38D8EB5324B59F8C005BC1E0 /* icon_app_live_on_red.gif in Resources */,
 				3850191E24AAE9EE007A64A0 /* LifeViewController.storyboard in Resources */,
+				38D918C224C93CC500834D74 /* DataBaseViewController.xib in Resources */,
 				59252F832482036A00F6C929 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,18 +583,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17CC1164C5A3F53AD2411826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59252F712482036900F6C929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D918D324C93D3F00834D74 /* LearnCoreData.xcdatamodeld in Sources */,
 				38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */,
+				38D918DA24C93D8A00834D74 /* SearchHistoryManager.m in Sources */,
 				38D8EB4E24B593F2005BC1E0 /* YHTitleRolling.m in Sources */,
+				38D918ED24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				59252F802482036A00F6C929 /* ViewController.m in Sources */,
+				38D918FA24C9855800834D74 /* LYHCollectionViewCell.m in Sources */,
 				3838222224B2EF730004CAEE /* Person.m in Sources */,
 				3877DA2D24C80EA100158C27 /* StackViewDemo.m in Sources */,
+				38D918E124C9792900834D74 /* NSString+Tool.m in Sources */,
 				38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */,
+				38D918C124C93CC500834D74 /* DataBaseViewController.m in Sources */,
 				38D8EB4F24B593F2005BC1E0 /* UIView+DCRolling.m in Sources */,
+				38D918F624C9838700834D74 /* TagsViewController.m in Sources */,
 				3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */,
 				38D8EB4824B46E49005BC1E0 /* YHTitleScrollView.m in Sources */,
 				3838222524B2EF830004CAEE /* Girl.m in Sources */,
@@ -469,10 +636,15 @@
 				599009F924838BDB00DEE1B0 /* YHBlock.m in Sources */,
 				59252F7A2482036A00F6C929 /* AppDelegate.m in Sources */,
 				59252F8B2482036B00F6C929 /* main.m in Sources */,
+				38D918F324C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m in Sources */,
 				3850191024AADE82007A64A0 /* LifeViewController.m in Sources */,
 				3850193424AC76BF007A64A0 /* RunloopDemoController.m in Sources */,
+				38D918D624C93D3F00834D74 /* YYUser.m in Sources */,
+				38D918D224C93D3F00834D74 /* CDUser+CoreDataClass.m in Sources */,
 				3838222824B2F3CB0004CAEE /* NSObject+Sark.m in Sources */,
 				38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */,
+				38D918D424C93D3F00834D74 /* CDUser+CoreDataProperties.m in Sources */,
+				38D918D524C93D3F00834D74 /* KeychainWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +811,7 @@
 		};
 		59252FA52482036B00F6C929 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE225A8F846684D2FBBF920 /* Pods-iOSProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -656,6 +829,7 @@
 		};
 		59252FA62482036B00F6C929 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AED9D7F81FEE6CE6E0464B /* Pods-iOSProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -787,6 +961,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38D918C624C93D3F00834D74 /* LearnCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38D918C724C93D3F00834D74 /* LearnCoreData.xcdatamodel */,
+			);
+			currentVersion = 38D918C724C93D3F00834D74 /* LearnCoreData.xcdatamodel */;
+			path = LearnCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 59252F6D2482036900F6C929 /* Project object */;
 }
