@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TagModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LYHCollectionViewCell : UICollectionViewCell
 @property (nonatomic ,strong) IBOutlet UILabel * label;
+@property (nonatomic ,strong) TagModel * model;
 @end
 
 NS_ASSUME_NONNULL_END

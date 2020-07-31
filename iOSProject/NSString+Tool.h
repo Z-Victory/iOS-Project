@@ -20,6 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
 @return 返回宽度
 */
 +(CGFloat)getWidthWithText:(NSString *)text height:(CGFloat)height font:(CGFloat)font;
+
+/// 计算文字宽度
+/// @param maxH 最大高度
+/// @param font 字体
+- (CGSize)boundingW:(CGFloat)maxH font:(UIFont *)font;
 @end
 
 NS_ASSUME_NONNULL_END

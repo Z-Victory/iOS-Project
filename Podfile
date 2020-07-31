@@ -4,5 +4,6 @@ target 'iOSProject' do
 
 pod 'FMDB'
 pod 'YYModel'
+pod 'Masonry'
 
 end

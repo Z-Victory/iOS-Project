@@ -35,4 +35,16 @@
                                      context:nil];
     return rect.size.width;
 }
+//计算文字宽度
+- (CGSize)boundingW:(CGFloat)maxH font:(UIFont *)font {
+    return [self boundingSize:CGSizeMake(CGFLOAT_MAX, maxH) font:font];
+}
+- (CGSize)boundingSize:(CGSize)size font:(UIFont *)font {
+    return [self boundingRectWithSize:size
+                              options:NSStringDrawingTruncatesLastVisibleLine |
+                                           NSStringDrawingUsesLineFragmentOrigin |
+                                           NSStringDrawingUsesFontLeading
+                           attributes:@{NSFontAttributeName:font}
+                              context:nil].size;
+}
 @end

@@ -18,6 +18,7 @@
 #import "Girl.h"
 #import "NSObject+Sark.h"
 #import "StackViewDemo.h"
+#import "DateViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -32,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
-    self.dataArray = [NSMutableArray arrayWithObjects:@"DataBaseViewController",@"StackViewDemo",@"TagsViewController",@"StackViewDemo",@"StackViewDemo", nil];
+    self.dataArray = [NSMutableArray arrayWithObjects:@"DataBaseViewController",@"StackViewDemo",@"TagsViewController",@"DateViewController",@"StackViewDemo", nil];
     [self.view addSubview:self.tableView];
 //    button = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
 //    [button setTitle:@"跳转" forState:UIControlStateNormal];

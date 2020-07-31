@@ -17,6 +17,26 @@
 		3850192B24AB32A8007A64A0 /* TextViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850192A24AB32A8007A64A0 /* TextViewDemo.m */; };
 		3850193424AC76BF007A64A0 /* RunloopDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850193324AC76BF007A64A0 /* RunloopDemoController.m */; };
 		3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850193724AC882D007A64A0 /* AnimationDemo.m */; };
+		38595D7F24D01D4C0064C3DD /* NewTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38595D7C24D01D4B0064C3DD /* NewTagCell.xib */; };
+		38595D8024D01D4C0064C3DD /* NewTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D7E24D01D4C0064C3DD /* NewTagCell.m */; };
+		38595D8524D141650064C3DD /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D8324D141650064C3DD /* DateViewController.m */; };
+		38595D8624D141650064C3DD /* DateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38595D8424D141650064C3DD /* DateViewController.xib */; };
+		38595D8924D269A50064C3DD /* YHDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D8824D269A50064C3DD /* YHDatePickerView.m */; };
+		38595D8C24D2917C0064C3DD /* UploadConditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D8B24D2917C0064C3DD /* UploadConditionView.m */; };
+		38595D8F24D298770064C3DD /* UploadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D8E24D298770064C3DD /* UploadButton.m */; };
+		38595D9224D2C5580064C3DD /* YHPricePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D9124D2C5580064C3DD /* YHPricePickerView.m */; };
+		385A9CBC24CAE81D0033715B /* TagThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A9CBB24CAE81D0033715B /* TagThirdCell.xib */; };
+		386E887924CA825600CC03D1 /* LYHCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E887724CA825600CC03D1 /* LYHCollectionHeaderView.m */; };
+		386E887A24CA825600CC03D1 /* LYHCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386E887824CA825600CC03D1 /* LYHCollectionHeaderView.xib */; };
+		386E887D24CABB0B00CC03D1 /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E887C24CABB0B00CC03D1 /* TagModel.m */; };
+		386E888124CAC79000CC03D1 /* TagSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386E887F24CAC79000CC03D1 /* TagSecondCell.xib */; };
+		386E888224CAC79000CC03D1 /* TagSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E888024CAC79000CC03D1 /* TagSecondCell.m */; };
+		386E888924CACEF100CC03D1 /* TagSecondHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E888324CACEF000CC03D1 /* TagSecondHeaderView.m */; };
+		386E888A24CACEF100CC03D1 /* TagThirdHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E888424CACEF000CC03D1 /* TagThirdHeaderView.m */; };
+		386E888B24CACEF100CC03D1 /* TagThirdHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386E888524CACEF000CC03D1 /* TagThirdHeaderView.xib */; };
+		386E888C24CACEF100CC03D1 /* TagSecondHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386E888624CACEF000CC03D1 /* TagSecondHeaderView.xib */; };
+		386E889124CAD35000CC03D1 /* TagThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E888F24CAD35000CC03D1 /* TagThirdCell.m */; };
+		386E889424CAD59D00CC03D1 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E889224CAD59D00CC03D1 /* UIButton+EnlargeEdge.m */; };
 		3877DA2D24C80EA100158C27 /* StackViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3877DA2B24C80EA100158C27 /* StackViewDemo.m */; };
 		3877DA2E24C80EA100158C27 /* StackViewDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3877DA2C24C80EA100158C27 /* StackViewDemo.xib */; };
 		38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */; };
@@ -36,7 +56,6 @@
 		38D918D624C93D3F00834D74 /* YYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918D024C93D3F00834D74 /* YYUser.m */; };
 		38D918DA24C93D8A00834D74 /* SearchHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918D924C93D8A00834D74 /* SearchHistoryManager.m */; };
 		38D918E124C9792900834D74 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918E024C9792900834D74 /* NSString+Tool.m */; };
-		38D918ED24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918EC24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m */; };
 		38D918F324C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918F224C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m */; };
 		38D918F624C9838700834D74 /* TagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918F524C9838700834D74 /* TagsViewController.m */; };
 		38D918FA24C9855800834D74 /* LYHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D918F824C9855800834D74 /* LYHCollectionViewCell.m */; };
@@ -90,6 +109,39 @@
 		3850193324AC76BF007A64A0 /* RunloopDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopDemoController.m; sourceTree = "<group>"; };
 		3850193624AC882D007A64A0 /* AnimationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDemo.h; sourceTree = "<group>"; };
 		3850193724AC882D007A64A0 /* AnimationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemo.m; sourceTree = "<group>"; };
+		38595D7C24D01D4B0064C3DD /* NewTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTagCell.xib; sourceTree = "<group>"; };
+		38595D7D24D01D4C0064C3DD /* NewTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTagCell.h; sourceTree = "<group>"; };
+		38595D7E24D01D4C0064C3DD /* NewTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTagCell.m; sourceTree = "<group>"; };
+		38595D8224D141650064C3DD /* DateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		38595D8324D141650064C3DD /* DateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
+		38595D8424D141650064C3DD /* DateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateViewController.xib; sourceTree = "<group>"; };
+		38595D8724D269A50064C3DD /* YHDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHDatePickerView.h; sourceTree = "<group>"; };
+		38595D8824D269A50064C3DD /* YHDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHDatePickerView.m; sourceTree = "<group>"; };
+		38595D8A24D2917C0064C3DD /* UploadConditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadConditionView.h; sourceTree = "<group>"; };
+		38595D8B24D2917C0064C3DD /* UploadConditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadConditionView.m; sourceTree = "<group>"; };
+		38595D8D24D298770064C3DD /* UploadButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadButton.h; sourceTree = "<group>"; };
+		38595D8E24D298770064C3DD /* UploadButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadButton.m; sourceTree = "<group>"; };
+		38595D9024D2C5580064C3DD /* YHPricePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPricePickerView.h; sourceTree = "<group>"; };
+		38595D9124D2C5580064C3DD /* YHPricePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPricePickerView.m; sourceTree = "<group>"; };
+		385A9CBB24CAE81D0033715B /* TagThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagThirdCell.xib; sourceTree = "<group>"; };
+		386E887624CA825600CC03D1 /* LYHCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHCollectionHeaderView.h; sourceTree = "<group>"; };
+		386E887724CA825600CC03D1 /* LYHCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHCollectionHeaderView.m; sourceTree = "<group>"; };
+		386E887824CA825600CC03D1 /* LYHCollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHCollectionHeaderView.xib; sourceTree = "<group>"; };
+		386E887B24CABB0B00CC03D1 /* TagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagModel.h; sourceTree = "<group>"; };
+		386E887C24CABB0B00CC03D1 /* TagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagModel.m; sourceTree = "<group>"; };
+		386E887E24CAC79000CC03D1 /* TagSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSecondCell.h; sourceTree = "<group>"; };
+		386E887F24CAC79000CC03D1 /* TagSecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagSecondCell.xib; sourceTree = "<group>"; };
+		386E888024CAC79000CC03D1 /* TagSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSecondCell.m; sourceTree = "<group>"; };
+		386E888324CACEF000CC03D1 /* TagSecondHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSecondHeaderView.m; sourceTree = "<group>"; };
+		386E888424CACEF000CC03D1 /* TagThirdHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagThirdHeaderView.m; sourceTree = "<group>"; };
+		386E888524CACEF000CC03D1 /* TagThirdHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagThirdHeaderView.xib; sourceTree = "<group>"; };
+		386E888624CACEF000CC03D1 /* TagSecondHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagSecondHeaderView.xib; sourceTree = "<group>"; };
+		386E888724CACEF000CC03D1 /* TagThirdHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagThirdHeaderView.h; sourceTree = "<group>"; };
+		386E888824CACEF000CC03D1 /* TagSecondHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSecondHeaderView.h; sourceTree = "<group>"; };
+		386E888D24CAD34F00CC03D1 /* TagThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagThirdCell.h; sourceTree = "<group>"; };
+		386E888F24CAD35000CC03D1 /* TagThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagThirdCell.m; sourceTree = "<group>"; };
+		386E889224CAD59D00CC03D1 /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
+		386E889324CAD59D00CC03D1 /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
 		3877DA2A24C80EA100158C27 /* StackViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewDemo.h; sourceTree = "<group>"; };
 		3877DA2B24C80EA100158C27 /* StackViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewDemo.m; sourceTree = "<group>"; };
 		3877DA2C24C80EA100158C27 /* StackViewDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackViewDemo.xib; sourceTree = "<group>"; };
@@ -124,8 +176,6 @@
 		38D918D924C93D8A00834D74 /* SearchHistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHistoryManager.m; sourceTree = "<group>"; };
 		38D918DF24C9792900834D74 /* NSString+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
 		38D918E024C9792900834D74 /* NSString+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
-		38D918EB24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
-		38D918EC24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		38D918F124C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeIrregularCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		38D918F224C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeIrregularCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		38D918F424C9838700834D74 /* TagsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagsViewController.h; sourceTree = "<group>"; };
@@ -207,6 +257,7 @@
 		3850192324AB297D007A64A0 /* UI控件 */ = {
 			isa = PBXGroup;
 			children = (
+				38595D8124D140750064C3DD /* 日期控件 */,
 				38D918DB24C978B200834D74 /* 标签 */,
 				3877DA2924C80E6900158C27 /* UIStackView */,
 				3850192824AB3286007A64A0 /* UITextView */,
@@ -243,6 +294,24 @@
 				38D8EB4924B593F2005BC1E0 /* YHTitleRolling */,
 			);
 			path = "动画";
+			sourceTree = "<group>";
+		};
+		38595D8124D140750064C3DD /* 日期控件 */ = {
+			isa = PBXGroup;
+			children = (
+				38595D8224D141650064C3DD /* DateViewController.h */,
+				38595D8324D141650064C3DD /* DateViewController.m */,
+				38595D8424D141650064C3DD /* DateViewController.xib */,
+				38595D8724D269A50064C3DD /* YHDatePickerView.h */,
+				38595D8824D269A50064C3DD /* YHDatePickerView.m */,
+				38595D8A24D2917C0064C3DD /* UploadConditionView.h */,
+				38595D8B24D2917C0064C3DD /* UploadConditionView.m */,
+				38595D8D24D298770064C3DD /* UploadButton.h */,
+				38595D8E24D298770064C3DD /* UploadButton.m */,
+				38595D9024D2C5580064C3DD /* YHPricePickerView.h */,
+				38595D9124D2C5580064C3DD /* YHPricePickerView.m */,
+			);
+			path = "日期控件";
 			sourceTree = "<group>";
 		};
 		3877DA2924C80E6900158C27 /* UIStackView */ = {
@@ -318,15 +387,33 @@
 		38D918DB24C978B200834D74 /* 标签 */ = {
 			isa = PBXGroup;
 			children = (
-				38D918EB24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.h */,
-				38D918EC24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m */,
 				38D918F124C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.h */,
 				38D918F224C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m */,
 				38D918F424C9838700834D74 /* TagsViewController.h */,
 				38D918F524C9838700834D74 /* TagsViewController.m */,
+				386E887B24CABB0B00CC03D1 /* TagModel.h */,
+				386E887C24CABB0B00CC03D1 /* TagModel.m */,
+				386E887624CA825600CC03D1 /* LYHCollectionHeaderView.h */,
+				386E887724CA825600CC03D1 /* LYHCollectionHeaderView.m */,
+				386E887824CA825600CC03D1 /* LYHCollectionHeaderView.xib */,
+				386E888824CACEF000CC03D1 /* TagSecondHeaderView.h */,
+				386E888324CACEF000CC03D1 /* TagSecondHeaderView.m */,
+				386E888624CACEF000CC03D1 /* TagSecondHeaderView.xib */,
+				386E888724CACEF000CC03D1 /* TagThirdHeaderView.h */,
+				386E888424CACEF000CC03D1 /* TagThirdHeaderView.m */,
+				386E888524CACEF000CC03D1 /* TagThirdHeaderView.xib */,
 				38D918F724C9855800834D74 /* LYHCollectionViewCell.h */,
 				38D918F824C9855800834D74 /* LYHCollectionViewCell.m */,
 				38D918F924C9855800834D74 /* LYHCollectionViewCell.xib */,
+				386E887E24CAC79000CC03D1 /* TagSecondCell.h */,
+				386E888024CAC79000CC03D1 /* TagSecondCell.m */,
+				386E887F24CAC79000CC03D1 /* TagSecondCell.xib */,
+				386E888D24CAD34F00CC03D1 /* TagThirdCell.h */,
+				386E888F24CAD35000CC03D1 /* TagThirdCell.m */,
+				385A9CBB24CAE81D0033715B /* TagThirdCell.xib */,
+				38595D7D24D01D4C0064C3DD /* NewTagCell.h */,
+				38595D7E24D01D4C0064C3DD /* NewTagCell.m */,
+				38595D7C24D01D4B0064C3DD /* NewTagCell.xib */,
 			);
 			path = "标签";
 			sourceTree = "<group>";
@@ -369,6 +456,8 @@
 				3838222724B2F3CB0004CAEE /* NSObject+Sark.m */,
 				38D918DF24C9792900834D74 /* NSString+Tool.h */,
 				38D918E024C9792900834D74 /* NSString+Tool.m */,
+				386E889324CAD59D00CC03D1 /* UIButton+EnlargeEdge.h */,
+				386E889224CAD59D00CC03D1 /* UIButton+EnlargeEdge.m */,
 				38D918BD24C93B6500834D74 /* 数据持久化 */,
 				3850193524AC880B007A64A0 /* 动画 */,
 				3850192324AB297D007A64A0 /* UI控件 */,
@@ -554,15 +643,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386E888B24CACEF100CC03D1 /* TagThirdHeaderView.xib in Resources */,
 				38D918FB24C9855800834D74 /* LYHCollectionViewCell.xib in Resources */,
 				3877DA2E24C80EA100158C27 /* StackViewDemo.xib in Resources */,
 				3850192024AAED78007A64A0 /* TestX.xib in Resources */,
+				386E887A24CA825600CC03D1 /* LYHCollectionHeaderView.xib in Resources */,
+				38595D7F24D01D4C0064C3DD /* NewTagCell.xib in Resources */,
 				59252F882482036B00F6C929 /* LaunchScreen.storyboard in Resources */,
+				38595D8624D141650064C3DD /* DateViewController.xib in Resources */,
 				38D8EB5224B59F8C005BC1E0 /* icon_app_live_on_white.gif in Resources */,
 				59252F852482036B00F6C929 /* Assets.xcassets in Resources */,
+				385A9CBC24CAE81D0033715B /* TagThirdCell.xib in Resources */,
 				38D8EB5324B59F8C005BC1E0 /* icon_app_live_on_red.gif in Resources */,
 				3850191E24AAE9EE007A64A0 /* LifeViewController.storyboard in Resources */,
 				38D918C224C93CC500834D74 /* DataBaseViewController.xib in Resources */,
+				386E888124CAC79000CC03D1 /* TagSecondCell.xib in Resources */,
+				386E888C24CACEF100CC03D1 /* TagSecondHeaderView.xib in Resources */,
 				59252F832482036A00F6C929 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,26 +713,38 @@
 				38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */,
 				38D918DA24C93D8A00834D74 /* SearchHistoryManager.m in Sources */,
 				38D8EB4E24B593F2005BC1E0 /* YHTitleRolling.m in Sources */,
-				38D918ED24C97B5000834D74 /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				59252F802482036A00F6C929 /* ViewController.m in Sources */,
 				38D918FA24C9855800834D74 /* LYHCollectionViewCell.m in Sources */,
 				3838222224B2EF730004CAEE /* Person.m in Sources */,
 				3877DA2D24C80EA100158C27 /* StackViewDemo.m in Sources */,
 				38D918E124C9792900834D74 /* NSString+Tool.m in Sources */,
 				38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */,
+				386E888A24CACEF100CC03D1 /* TagThirdHeaderView.m in Sources */,
 				38D918C124C93CC500834D74 /* DataBaseViewController.m in Sources */,
+				38595D8524D141650064C3DD /* DateViewController.m in Sources */,
 				38D8EB4F24B593F2005BC1E0 /* UIView+DCRolling.m in Sources */,
 				38D918F624C9838700834D74 /* TagsViewController.m in Sources */,
 				3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */,
 				38D8EB4824B46E49005BC1E0 /* YHTitleScrollView.m in Sources */,
 				3838222524B2EF830004CAEE /* Girl.m in Sources */,
+				38595D8924D269A50064C3DD /* YHDatePickerView.m in Sources */,
+				386E888924CACEF100CC03D1 /* TagSecondHeaderView.m in Sources */,
 				3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */,
+				386E889424CAD59D00CC03D1 /* UIButton+EnlargeEdge.m in Sources */,
+				386E887924CA825600CC03D1 /* LYHCollectionHeaderView.m in Sources */,
+				386E888224CAC79000CC03D1 /* TagSecondCell.m in Sources */,
+				386E887D24CABB0B00CC03D1 /* TagModel.m in Sources */,
 				59252FB12482081400F6C929 /* YHLock.m in Sources */,
 				3850192B24AB32A8007A64A0 /* TextViewDemo.m in Sources */,
+				38595D9224D2C5580064C3DD /* YHPricePickerView.m in Sources */,
 				599009F924838BDB00DEE1B0 /* YHBlock.m in Sources */,
 				59252F7A2482036A00F6C929 /* AppDelegate.m in Sources */,
+				38595D8024D01D4C0064C3DD /* NewTagCell.m in Sources */,
+				386E889124CAD35000CC03D1 /* TagThirdCell.m in Sources */,
 				59252F8B2482036B00F6C929 /* main.m in Sources */,
 				38D918F324C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m in Sources */,
+				38595D8F24D298770064C3DD /* UploadButton.m in Sources */,
+				38595D8C24D2917C0064C3DD /* UploadConditionView.m in Sources */,
 				3850191024AADE82007A64A0 /* LifeViewController.m in Sources */,
 				3850193424AC76BF007A64A0 /* RunloopDemoController.m in Sources */,
 				38D918D624C93D3F00834D74 /* YYUser.m in Sources */,
