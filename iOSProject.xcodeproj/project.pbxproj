@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3803563124E3D7CB003798EA /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803563024E3D7CB003798EA /* MenuViewController.m */; };
+		3803563424E3D89B003798EA /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803563324E3D89B003798EA /* MenuView.m */; };
+		3803563724E3D97A003798EA /* YHFilterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803563624E3D979003798EA /* YHFilterButton.m */; };
+		3803563A24E3DA4D003798EA /* YHFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803563824E3DA4C003798EA /* YHFilterModel.m */; };
+		3803563D24E3DE5C003798EA /* UIView+Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803563B24E3DE5C003798EA /* UIView+Coordinate.m */; };
+		3803564024E3F1FC003798EA /* MenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803563F24E3F1FC003798EA /* MenuTableView.m */; };
+		3803564324E530E0003798EA /* MenuTableCollectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803564224E530E0003798EA /* MenuTableCollectCell.m */; };
+		3803564624E53268003798EA /* MenuTableCollectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803564424E53268003798EA /* MenuTableCollectView.m */; };
+		3803564A24E53300003798EA /* MenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803564824E53300003798EA /* MenuCollectionViewCell.m */; };
+		3803564B24E53300003798EA /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3803564924E53300003798EA /* MenuCollectionViewCell.xib */; };
+		3803564E24E65B38003798EA /* MenuCollectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803564D24E65B38003798EA /* MenuCollectModel.m */; };
+		3803565124E692D3003798EA /* MenuContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803565024E692D3003798EA /* MenuContentView.m */; };
 		3838222224B2EF730004CAEE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222124B2EF730004CAEE /* Person.m */; };
 		3838222524B2EF830004CAEE /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222424B2EF830004CAEE /* Girl.m */; };
 		3838222824B2F3CB0004CAEE /* NSObject+Sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222724B2F3CB0004CAEE /* NSObject+Sark.m */; };
@@ -91,6 +103,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3803562F24E3D7CB003798EA /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		3803563024E3D7CB003798EA /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		3803563224E3D89B003798EA /* MenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		3803563324E3D89B003798EA /* MenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		3803563524E3D979003798EA /* YHFilterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFilterButton.h; sourceTree = "<group>"; };
+		3803563624E3D979003798EA /* YHFilterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFilterButton.m; sourceTree = "<group>"; };
+		3803563824E3DA4C003798EA /* YHFilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFilterModel.m; sourceTree = "<group>"; };
+		3803563924E3DA4C003798EA /* YHFilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFilterModel.h; sourceTree = "<group>"; };
+		3803563B24E3DE5C003798EA /* UIView+Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Coordinate.m"; sourceTree = "<group>"; };
+		3803563C24E3DE5C003798EA /* UIView+Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Coordinate.h"; sourceTree = "<group>"; };
+		3803563E24E3F1FC003798EA /* MenuTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableView.h; sourceTree = "<group>"; };
+		3803563F24E3F1FC003798EA /* MenuTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableView.m; sourceTree = "<group>"; };
+		3803564124E530E0003798EA /* MenuTableCollectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableCollectCell.h; sourceTree = "<group>"; };
+		3803564224E530E0003798EA /* MenuTableCollectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableCollectCell.m; sourceTree = "<group>"; };
+		3803564424E53268003798EA /* MenuTableCollectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableCollectView.m; sourceTree = "<group>"; };
+		3803564524E53268003798EA /* MenuTableCollectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableCollectView.h; sourceTree = "<group>"; };
+		3803564724E53300003798EA /* MenuCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewCell.h; sourceTree = "<group>"; };
+		3803564824E53300003798EA /* MenuCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewCell.m; sourceTree = "<group>"; };
+		3803564924E53300003798EA /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		3803564C24E65B38003798EA /* MenuCollectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuCollectModel.h; sourceTree = "<group>"; };
+		3803564D24E65B38003798EA /* MenuCollectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuCollectModel.m; sourceTree = "<group>"; };
+		3803564F24E692D3003798EA /* MenuContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuContentView.h; sourceTree = "<group>"; };
+		3803565024E692D3003798EA /* MenuContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuContentView.m; sourceTree = "<group>"; };
 		3838222024B2EF730004CAEE /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3838222124B2EF730004CAEE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		3838222324B2EF830004CAEE /* Girl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
@@ -234,6 +269,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3803562E24E3D75A003798EA /* 菜单控件 */ = {
+			isa = PBXGroup;
+			children = (
+				3803562F24E3D7CB003798EA /* MenuViewController.h */,
+				3803563024E3D7CB003798EA /* MenuViewController.m */,
+				3803563224E3D89B003798EA /* MenuView.h */,
+				3803563324E3D89B003798EA /* MenuView.m */,
+				3803564F24E692D3003798EA /* MenuContentView.h */,
+				3803565024E692D3003798EA /* MenuContentView.m */,
+				3803563524E3D979003798EA /* YHFilterButton.h */,
+				3803563624E3D979003798EA /* YHFilterButton.m */,
+				3803563924E3DA4C003798EA /* YHFilterModel.h */,
+				3803563824E3DA4C003798EA /* YHFilterModel.m */,
+				3803564C24E65B38003798EA /* MenuCollectModel.h */,
+				3803564D24E65B38003798EA /* MenuCollectModel.m */,
+				3803563E24E3F1FC003798EA /* MenuTableView.h */,
+				3803563F24E3F1FC003798EA /* MenuTableView.m */,
+				3803564524E53268003798EA /* MenuTableCollectView.h */,
+				3803564424E53268003798EA /* MenuTableCollectView.m */,
+				3803564124E530E0003798EA /* MenuTableCollectCell.h */,
+				3803564224E530E0003798EA /* MenuTableCollectCell.m */,
+				3803564724E53300003798EA /* MenuCollectionViewCell.h */,
+				3803564824E53300003798EA /* MenuCollectionViewCell.m */,
+				3803564924E53300003798EA /* MenuCollectionViewCell.xib */,
+			);
+			path = "菜单控件";
+			sourceTree = "<group>";
+		};
 		3850192124AB21D3007A64A0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +320,7 @@
 		3850192324AB297D007A64A0 /* UI控件 */ = {
 			isa = PBXGroup;
 			children = (
+				3803562E24E3D75A003798EA /* 菜单控件 */,
 				38595D8124D140750064C3DD /* 日期控件 */,
 				38D918DB24C978B200834D74 /* 标签 */,
 				3877DA2924C80E6900158C27 /* UIStackView */,
@@ -458,6 +522,8 @@
 				38D918E024C9792900834D74 /* NSString+Tool.m */,
 				386E889324CAD59D00CC03D1 /* UIButton+EnlargeEdge.h */,
 				386E889224CAD59D00CC03D1 /* UIButton+EnlargeEdge.m */,
+				3803563C24E3DE5C003798EA /* UIView+Coordinate.h */,
+				3803563B24E3DE5C003798EA /* UIView+Coordinate.m */,
 				38D918BD24C93B6500834D74 /* 数据持久化 */,
 				3850193524AC880B007A64A0 /* 动画 */,
 				3850192324AB297D007A64A0 /* UI控件 */,
@@ -656,6 +722,7 @@
 				385A9CBC24CAE81D0033715B /* TagThirdCell.xib in Resources */,
 				38D8EB5324B59F8C005BC1E0 /* icon_app_live_on_red.gif in Resources */,
 				3850191E24AAE9EE007A64A0 /* LifeViewController.storyboard in Resources */,
+				3803564B24E53300003798EA /* MenuCollectionViewCell.xib in Resources */,
 				38D918C224C93CC500834D74 /* DataBaseViewController.xib in Resources */,
 				386E888124CAC79000CC03D1 /* TagSecondCell.xib in Resources */,
 				386E888C24CACEF100CC03D1 /* TagSecondHeaderView.xib in Resources */,
@@ -712,12 +779,15 @@
 				38D918D324C93D3F00834D74 /* LearnCoreData.xcdatamodeld in Sources */,
 				38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */,
 				38D918DA24C93D8A00834D74 /* SearchHistoryManager.m in Sources */,
+				3803564A24E53300003798EA /* MenuCollectionViewCell.m in Sources */,
 				38D8EB4E24B593F2005BC1E0 /* YHTitleRolling.m in Sources */,
 				59252F802482036A00F6C929 /* ViewController.m in Sources */,
 				38D918FA24C9855800834D74 /* LYHCollectionViewCell.m in Sources */,
 				3838222224B2EF730004CAEE /* Person.m in Sources */,
+				3803563D24E3DE5C003798EA /* UIView+Coordinate.m in Sources */,
 				3877DA2D24C80EA100158C27 /* StackViewDemo.m in Sources */,
 				38D918E124C9792900834D74 /* NSString+Tool.m in Sources */,
+				3803564024E3F1FC003798EA /* MenuTableView.m in Sources */,
 				38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */,
 				386E888A24CACEF100CC03D1 /* TagThirdHeaderView.m in Sources */,
 				38D918C124C93CC500834D74 /* DataBaseViewController.m in Sources */,
@@ -727,10 +797,14 @@
 				3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */,
 				38D8EB4824B46E49005BC1E0 /* YHTitleScrollView.m in Sources */,
 				3838222524B2EF830004CAEE /* Girl.m in Sources */,
+				3803563A24E3DA4D003798EA /* YHFilterModel.m in Sources */,
 				38595D8924D269A50064C3DD /* YHDatePickerView.m in Sources */,
+				3803563124E3D7CB003798EA /* MenuViewController.m in Sources */,
+				3803564624E53268003798EA /* MenuTableCollectView.m in Sources */,
 				386E888924CACEF100CC03D1 /* TagSecondHeaderView.m in Sources */,
 				3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */,
 				386E889424CAD59D00CC03D1 /* UIButton+EnlargeEdge.m in Sources */,
+				3803563724E3D97A003798EA /* YHFilterButton.m in Sources */,
 				386E887924CA825600CC03D1 /* LYHCollectionHeaderView.m in Sources */,
 				386E888224CAC79000CC03D1 /* TagSecondCell.m in Sources */,
 				386E887D24CABB0B00CC03D1 /* TagModel.m in Sources */,
@@ -739,8 +813,11 @@
 				38595D9224D2C5580064C3DD /* YHPricePickerView.m in Sources */,
 				599009F924838BDB00DEE1B0 /* YHBlock.m in Sources */,
 				59252F7A2482036A00F6C929 /* AppDelegate.m in Sources */,
+				3803565124E692D3003798EA /* MenuContentView.m in Sources */,
 				38595D8024D01D4C0064C3DD /* NewTagCell.m in Sources */,
 				386E889124CAD35000CC03D1 /* TagThirdCell.m in Sources */,
+				3803564E24E65B38003798EA /* MenuCollectModel.m in Sources */,
+				3803564324E530E0003798EA /* MenuTableCollectCell.m in Sources */,
 				59252F8B2482036B00F6C929 /* main.m in Sources */,
 				38D918F324C9831E00834D74 /* LeeIrregularCollectionViewFlowLayout.m in Sources */,
 				38595D8F24D298770064C3DD /* UploadButton.m in Sources */,
@@ -751,6 +828,7 @@
 				38D918D224C93D3F00834D74 /* CDUser+CoreDataClass.m in Sources */,
 				3838222824B2F3CB0004CAEE /* NSObject+Sark.m in Sources */,
 				38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */,
+				3803563424E3D89B003798EA /* MenuView.m in Sources */,
 				38D918D424C93D3F00834D74 /* CDUser+CoreDataProperties.m in Sources */,
 				38D918D524C93D3F00834D74 /* KeychainWrapper.m in Sources */,
 			);

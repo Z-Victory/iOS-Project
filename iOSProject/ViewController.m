@@ -33,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
-    self.dataArray = [NSMutableArray arrayWithObjects:@"DataBaseViewController",@"StackViewDemo",@"TagsViewController",@"DateViewController",@"StackViewDemo", nil];
+    self.dataArray = [NSMutableArray arrayWithObjects:@"DataBaseViewController",@"StackViewDemo",@"TagsViewController",@"DateViewController",@"MenuViewController", nil];
     [self.view addSubview:self.tableView];
 //    button = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
 //    [button setTitle:@"跳转" forState:UIControlStateNormal];
