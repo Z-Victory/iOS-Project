@@ -51,6 +51,7 @@
 		386E889424CAD59D00CC03D1 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E889224CAD59D00CC03D1 /* UIButton+EnlargeEdge.m */; };
 		3877DA2D24C80EA100158C27 /* StackViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3877DA2B24C80EA100158C27 /* StackViewDemo.m */; };
 		3877DA2E24C80EA100158C27 /* StackViewDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3877DA2C24C80EA100158C27 /* StackViewDemo.xib */; };
+		3899DC56253845AE00E9D79C /* RequestDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3899DC55253845AE00E9D79C /* RequestDemoController.m */; };
 		38B1400E24A9D4A4005CC502 /* TestEmptyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */; };
 		38B1401124A9D4C2005CC502 /* NSObject+YHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */; };
 		38B1401424A9D676005CC502 /* NSObject+YHCategoryTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1401324A9D676005CC502 /* NSObject+YHCategoryTwo.m */; };
@@ -180,6 +181,8 @@
 		3877DA2A24C80EA100158C27 /* StackViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewDemo.h; sourceTree = "<group>"; };
 		3877DA2B24C80EA100158C27 /* StackViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewDemo.m; sourceTree = "<group>"; };
 		3877DA2C24C80EA100158C27 /* StackViewDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackViewDemo.xib; sourceTree = "<group>"; };
+		3899DC54253845AE00E9D79C /* RequestDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestDemoController.h; sourceTree = "<group>"; };
+		3899DC55253845AE00E9D79C /* RequestDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestDemoController.m; sourceTree = "<group>"; };
 		38B1400D24A9D4A4005CC502 /* TestEmptyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmptyFile.m; sourceTree = "<group>"; };
 		38B1400F24A9D4C2005CC502 /* NSObject+YHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YHCategory.h"; sourceTree = "<group>"; };
 		38B1401024A9D4C2005CC502 /* NSObject+YHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YHCategory.m"; sourceTree = "<group>"; };
@@ -388,6 +391,15 @@
 			path = UIStackView;
 			sourceTree = "<group>";
 		};
+		3899DC532538458400E9D79C /* 网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				3899DC54253845AE00E9D79C /* RequestDemoController.h */,
+				3899DC55253845AE00E9D79C /* RequestDemoController.m */,
+			);
+			path = "网络请求";
+			sourceTree = "<group>";
+		};
 		38D8EB4924B593F2005BC1E0 /* YHTitleRolling */ = {
 			isa = PBXGroup;
 			children = (
@@ -524,6 +536,7 @@
 				386E889224CAD59D00CC03D1 /* UIButton+EnlargeEdge.m */,
 				3803563C24E3DE5C003798EA /* UIView+Coordinate.h */,
 				3803563B24E3DE5C003798EA /* UIView+Coordinate.m */,
+				3899DC532538458400E9D79C /* 网络请求 */,
 				38D918BD24C93B6500834D74 /* 数据持久化 */,
 				3850193524AC880B007A64A0 /* 动画 */,
 				3850192324AB297D007A64A0 /* UI控件 */,
@@ -796,6 +809,7 @@
 				38D918F624C9838700834D74 /* TagsViewController.m in Sources */,
 				3850192624AB2AC1007A64A0 /* WKViewControllerDemo.m in Sources */,
 				38D8EB4824B46E49005BC1E0 /* YHTitleScrollView.m in Sources */,
+				3899DC56253845AE00E9D79C /* RequestDemoController.m in Sources */,
 				3838222524B2EF830004CAEE /* Girl.m in Sources */,
 				3803563A24E3DA4D003798EA /* YHFilterModel.m in Sources */,
 				38595D8924D269A50064C3DD /* YHDatePickerView.m in Sources */,
