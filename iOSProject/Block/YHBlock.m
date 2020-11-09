@@ -30,7 +30,7 @@
     NSLog(@"%@",[testBlock class]);
 }
 //__NSMallocBlock__
-//访问了外部auto变量
+//直接调用了copy方法
 - (void)testMallocBlock_MRC{
     int a = 11;
     void (^testBlock)(void);
@@ -67,6 +67,11 @@
         NSLog(@"哈哈%i",a);
     };
     NSLog(@"%@",[testBlock class]);
+    NSString * (^TTBlock)(int param,NSString * param2);
+    TTBlock = ^(int param,NSString * param2){
+        return param2;
+    };
+    
 }
 - (void)testRetainCount_MRC{
 //    int a = 11;
