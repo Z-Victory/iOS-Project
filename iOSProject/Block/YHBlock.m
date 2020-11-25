@@ -50,7 +50,7 @@
     };
     NSLog(@"%@",[testBlock class]);
 }
-//__StackBlock__
+//__NSStackBlock__
 //访问了外部变量，但没有强引用指向这个block，而是直接打印出来
 - (void)testStackBlock_ARC{
     int a = 11;
@@ -74,7 +74,7 @@
     
 }
 - (void)testRetainCount_MRC{
-    int a = 11;
+//    int a = 11;
     NSString * b = @"11";
     NSLog(@"%li",[b retainCount]);
     void (^testBlock)(void);
