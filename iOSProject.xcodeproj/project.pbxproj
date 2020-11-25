@@ -22,6 +22,7 @@
 		3838222224B2EF730004CAEE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222124B2EF730004CAEE /* Person.m */; };
 		3838222524B2EF830004CAEE /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222424B2EF830004CAEE /* Girl.m */; };
 		3838222824B2F3CB0004CAEE /* NSObject+Sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838222724B2F3CB0004CAEE /* NSObject+Sark.m */; };
+		383C08CE2558F09B00D29683 /* 开屏_iPhone X.png in Resources */ = {isa = PBXBuildFile; fileRef = 383C08CD2558F09B00D29683 /* 开屏_iPhone X.png */; };
 		3850191024AADE82007A64A0 /* LifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3850190F24AADE82007A64A0 /* LifeViewController.m */; };
 		3850191E24AAE9EE007A64A0 /* LifeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850191D24AAE9EE007A64A0 /* LifeViewController.storyboard */; };
 		3850192024AAED78007A64A0 /* TestX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3850191F24AAED78007A64A0 /* TestX.xib */; };
@@ -38,6 +39,7 @@
 		38595D8F24D298770064C3DD /* UploadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D8E24D298770064C3DD /* UploadButton.m */; };
 		38595D9224D2C5580064C3DD /* YHPricePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38595D9124D2C5580064C3DD /* YHPricePickerView.m */; };
 		385A9CBC24CAE81D0033715B /* TagThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A9CBB24CAE81D0033715B /* TagThirdCell.xib */; };
+		386A1332255556AD00203A3B /* ADLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 386A1331255556AD00203A3B /* ADLaunchView.m */; };
 		386E887924CA825600CC03D1 /* LYHCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E887724CA825600CC03D1 /* LYHCollectionHeaderView.m */; };
 		386E887A24CA825600CC03D1 /* LYHCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386E887824CA825600CC03D1 /* LYHCollectionHeaderView.xib */; };
 		386E887D24CABB0B00CC03D1 /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E887C24CABB0B00CC03D1 /* TagModel.m */; };
@@ -133,6 +135,7 @@
 		3838222424B2EF830004CAEE /* Girl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
 		3838222624B2F3CB0004CAEE /* NSObject+Sark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sark.h"; sourceTree = "<group>"; };
 		3838222724B2F3CB0004CAEE /* NSObject+Sark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sark.m"; sourceTree = "<group>"; };
+		383C08CD2558F09B00D29683 /* 开屏_iPhone X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开屏_iPhone X.png"; sourceTree = "<group>"; };
 		3850190E24AADE82007A64A0 /* LifeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeViewController.h; sourceTree = "<group>"; };
 		3850190F24AADE82007A64A0 /* LifeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeViewController.m; sourceTree = "<group>"; };
 		3850191D24AAE9EE007A64A0 /* LifeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LifeViewController.storyboard; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 		38595D9024D2C5580064C3DD /* YHPricePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPricePickerView.h; sourceTree = "<group>"; };
 		38595D9124D2C5580064C3DD /* YHPricePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPricePickerView.m; sourceTree = "<group>"; };
 		385A9CBB24CAE81D0033715B /* TagThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagThirdCell.xib; sourceTree = "<group>"; };
+		386A1330255556AD00203A3B /* ADLaunchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADLaunchView.h; sourceTree = "<group>"; };
+		386A1331255556AD00203A3B /* ADLaunchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADLaunchView.m; sourceTree = "<group>"; };
 		386E887624CA825600CC03D1 /* LYHCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHCollectionHeaderView.h; sourceTree = "<group>"; };
 		386E887724CA825600CC03D1 /* LYHCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHCollectionHeaderView.m; sourceTree = "<group>"; };
 		386E887824CA825600CC03D1 /* LYHCollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYHCollectionHeaderView.xib; sourceTree = "<group>"; };
@@ -329,6 +334,9 @@
 				3877DA2924C80E6900158C27 /* UIStackView */,
 				3850192824AB3286007A64A0 /* UITextView */,
 				3850192724AB3166007A64A0 /* WKWebView */,
+				386A1330255556AD00203A3B /* ADLaunchView.h */,
+				386A1331255556AD00203A3B /* ADLaunchView.m */,
+				383C08CD2558F09B00D29683 /* 开屏_iPhone X.png */,
 			);
 			path = "UI控件";
 			sourceTree = "<group>";
@@ -729,6 +737,7 @@
 				386E887A24CA825600CC03D1 /* LYHCollectionHeaderView.xib in Resources */,
 				38595D7F24D01D4C0064C3DD /* NewTagCell.xib in Resources */,
 				59252F882482036B00F6C929 /* LaunchScreen.storyboard in Resources */,
+				383C08CE2558F09B00D29683 /* 开屏_iPhone X.png in Resources */,
 				38595D8624D141650064C3DD /* DateViewController.xib in Resources */,
 				38D8EB5224B59F8C005BC1E0 /* icon_app_live_on_white.gif in Resources */,
 				59252F852482036B00F6C929 /* Assets.xcassets in Resources */,
@@ -814,6 +823,7 @@
 				3803563A24E3DA4D003798EA /* YHFilterModel.m in Sources */,
 				38595D8924D269A50064C3DD /* YHDatePickerView.m in Sources */,
 				3803563124E3D7CB003798EA /* MenuViewController.m in Sources */,
+				386A1332255556AD00203A3B /* ADLaunchView.m in Sources */,
 				3803564624E53268003798EA /* MenuTableCollectView.m in Sources */,
 				386E888924CACEF100CC03D1 /* TagSecondHeaderView.m in Sources */,
 				3850193824AC882D007A64A0 /* AnimationDemo.m in Sources */,
